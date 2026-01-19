@@ -1,0 +1,79 @@
+################################
+# PlatformIO
+################################
+.pio/
+.pio/build/
+.pioenvs/
+.piolibdeps/
+
+################################
+# VS Code (PlatformIO IDE)
+################################
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+
+################################
+# C / C++ build artifacts
+################################
+*.o
+*.a
+*.elf
+*.map
+*.lst
+*.d
+*.su
+
+################################
+# Python
+################################
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+
+################################
+# Python virtual environments
+################################
+venv/
+.venv/
+env/
+ENV/
+
+################################
+# PyInstaller
+################################
+# Build directories
+build/
+dist/
+
+# PyInstaller spec file
+*.spec
+
+# Windows executables (PyInstaller output)
+*.exe
+
+################################
+# Logs & temp
+################################
+*.log
+*.tmp
+*.bak
+
+################################
+# OS-specific
+################################
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Linux
+*~
