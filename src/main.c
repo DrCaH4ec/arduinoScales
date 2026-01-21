@@ -36,15 +36,6 @@ int main(void) {
 
     button_initHw(&buttonTare);
     button_initHw(&buttonScale);
-
-    // Set pin PB0 as output
-    DDRB |= (1 << PB5);
-
-    DDRC |= (1 << PC0);
-    PORTC &= ~(1 << PC0);
-
-    DDRB |= (1 << PB0);
-    PORTB &= ~(1 << PB0);
     
     int16_t weight, prevWeight = 0;
 
@@ -80,8 +71,6 @@ int main(void) {
 
                 prevWeight = weight;
             }
-
-
         }
     }
 
